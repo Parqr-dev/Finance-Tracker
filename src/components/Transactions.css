@@ -1,0 +1,102 @@
+/* Remove wrapper styles so the button spans cleanly */
+.tab {
+  width: 100%;
+}
+
+.tabbing {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tabbing:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #f8fafc;
+}
+
+/* Modal Overlay Backdrop */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Card */
+.modal-content {
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 28px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-sizing: border-box;
+}
+
+.modal-content h2 {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.modal-content input,
+.modal-content select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 14px;
+  color: #f8fafc;
+  background-color: #0f172a;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.functions {
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.functions:nth-of-type(1) {
+  background-color: #f8fafc;
+  color: #0f172a;
+  margin-top: 6px;
+}
+
+.functions:nth-of-type(1):hover {
+  background-color: #ffffff;
+}
+
+.functions:nth-of-type(2) {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.functions:nth-of-type(2):hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #f8fafc;
+}
