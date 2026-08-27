@@ -1,4 +1,4 @@
-/* Outer Container */
+
 .expenses {
     min-width: 0;
     max-width: 100%;
@@ -17,7 +17,7 @@
     letter-spacing: -0.01em;
 }
 
-/* Search Input */
+
 .expenses input {
     width: 100%;
     box-sizing: border-box;
@@ -41,7 +41,7 @@
     color: #64748b;
 }
 
-/* Scrollable Showcase */
+
 .showcase {
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
 
 }
 
-/* Individual Expense Item Card */
+
 .expense-card {
     display: flex;
     justify-content: space-between;
@@ -81,7 +81,7 @@
     color: #e2e8f0;
 }
 
-/* Total Section */
+
 .total {
     padding-top: 16px;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -95,7 +95,7 @@
     color: #f8fafc;
 }
 
-/* Custom Scrollbar */
+
 .showcase::-webkit-scrollbar {
     width: 5px;
 }
