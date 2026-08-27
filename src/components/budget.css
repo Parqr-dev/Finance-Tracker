@@ -1,4 +1,4 @@
-/* Clean single button style matching Transactions */
+
 .budget-button {
   width: 100%;
   border: none;
@@ -19,7 +19,7 @@
   color: #f8fafc;
 }
 
-/* Modal Overlay Backdrop */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -31,7 +31,7 @@
   z-index: 1000;
 }
 
-/* Modal Card */
+
 .modal-content {
   width: 100%;
   max-width: 380px;
