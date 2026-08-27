@@ -1,4 +1,4 @@
-/* Remove wrapper styles so the button spans cleanly */
+
 .tab {
   width: 100%;
 }
@@ -23,7 +23,7 @@
   color: #f8fafc;
 }
 
-/* Modal Overlay Backdrop */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -35,7 +35,7 @@
   z-index: 1000;
 }
 
-/* Modal Card */
+
 .modal-content {
   background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
   border: 1px solid rgba(255, 255, 255, 0.1);
